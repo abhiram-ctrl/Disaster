@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { heatmapPaint } from '../features/heatmap';
+import { heatmapPaint } from '../features/HeatMap';
 import { getDistanceKm, getNearbyLocations } from '../services/locationService';
 import './HeatMap.css';
 
